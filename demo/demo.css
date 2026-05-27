@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: system-ui, sans-serif;
+  color: #f3f3f3;
+  background: #0a0a0a;
+}
+
+.demo-root {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.demo-hud {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  max-width: 420px;
+  pointer-events: auto;
+}
+
+.demo-hud h1 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.demo-hud p {
+  margin: 0;
+  font-size: 0.82rem;
+  opacity: 0.75;
+  line-height: 1.45;
+}
+
+.demo-panel {
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(24px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.demo-panel label {
+  display: block;
+  font-size: 0.72rem;
+  opacity: 0.7;
+  margin-bottom: 6px;
+}
+
+.demo-panel input[type='text'],
+.demo-panel input[type='range'] {
+  width: 100%;
+}
+
+.demo-status {
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+}

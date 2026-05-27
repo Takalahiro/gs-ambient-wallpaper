@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "types": ["vite/client"],
+    "paths": {
+      "@gs-ambient/core": ["./src/core/index.ts"],
+      "@gs-ambient/core/*": ["./src/core/*"],
+      "@gs-ambient/components/*": ["./src/components/*"]
+    }
+  },
+  "include": ["src/**/*", "demo/**/*", "vite.config.ts"]
+}
