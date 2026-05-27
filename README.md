@@ -42,14 +42,6 @@ const engine = createGS3Wallpaper(hostElement, {
 await engine.dispose();
 ```
 
-## Open-sourcing this folder
-
-1. Copy `_standalone/gs-ambient-wallpaper` to a new git repository
-2. `pnpm install && pnpm build`
-3. Ship your own `public/ply/*` assets (or document download steps)
-4. MIT license included (`LICENSE`)
-
-See [ORIGIN.md](./ORIGIN.md) for file provenance from my-second-brain.
 
 ## Documentation
 
