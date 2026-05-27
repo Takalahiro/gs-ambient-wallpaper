@@ -41,13 +41,6 @@ npm run dev
 
 浏览器打开 http://localhost:5175
 
-## 单独开源步骤
-
-1. 将整个 `gs-ambient-wallpaper` 文件夹复制到新 Git 仓库
-2. 删除或保留 `ORIGIN.md` 均可
-3. 提交 `LICENSE`、`README`、源码；大体积 `*.ply` 建议 Git LFS 或部署期上传
-4. `pnpm install && pnpm build`
-
 ## 与主项目的对应关系
 
 详见 [ORIGIN.md](./ORIGIN.md) 与 [docs/TECHNICAL_REPORT.md §16](./docs/TECHNICAL_REPORT.md#16-与-my-second-brain-的关系)。
